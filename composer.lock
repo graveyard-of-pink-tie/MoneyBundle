@@ -1,0 +1,87 @@
+{
+    "hash": "a68e7ef33e0ea87e65ed4333a393f37b",
+    "packages": [
+        {
+            "package": "mathiasverraes/money",
+            "version": "dev-master",
+            "source-reference": "de55e39bf0c7feacd8e177a5dfdd0f0d8ef5f63c",
+            "commit-date": "1343820501"
+        },
+        {
+            "package": "symfony/dependency-injection",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1346140482"
+        },
+        {
+            "package": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/form",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1346132306"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "dev-master",
+            "source-reference": "aeffdc93a69b65dad2f61c917f73c84b8e387ba4",
+            "commit-date": "1346143430"
+        },
+        {
+            "package": "symfony/locale",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/locale",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/options-resolver",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/options-resolver",
+            "version": "dev-master",
+            "source-reference": "123587aab29d4113aad125fdfca739104f2c7558",
+            "commit-date": "1345643321"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "mathiasverraes/money": 20
+    }
+}

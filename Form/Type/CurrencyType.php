@@ -1,0 +1,69 @@
+<?php
+/**
+ * This file is part of the Money library
+ *
+ * Copyright (c) 2011 Mathias Verraes
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Money\MoneyBundle\Form\Type;
+
+use Money\MoneyBundle\Form\DataTransformer\CurrencyToStringTransformer;
+use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\OptionsResolver\OptionsResolverInterface;
+
+/**
+ * Custom form type for the Currency object.
+ *
+ * @author Marijn Huizendveld <marijn@pink-tie.com>
+ * @copyright Mathias Verraes (2011)
+ */
+final class CurrencyType extends AbstractType
+{
+    /**
+     * @param Symfony\Component\Form\FormBuilderInterface $builder
+     * @param array $options
+     */
+    public function buildForm(FormBuilderInterface $builder, array $options)
+    {
+        $builder->addModelTransformer(new CurrencyToStringTransformer());
+    }
+
+    /**
+     * @param Symfony\Component\OptionsResolver\OptionsResolverInterface $resolver
+     */
+    public function setDefaultOptions(OptionsResolverInterface $resolver)
+    {
+        $resolver->setRequired(array('currency', 'choices'));
+        $resolver->setDefaults(array(
+            'currency' => 'EUR',
+            'choices' => array('EUR', 'USD', 'GBP', 'JPY')
+        ));
+        $resolver->setAllowedTypes(array(
+            'currency' => array('string'),
+            'choices' => array('array')
+        ));
+        $resolver->setAllowedValues(array(
+            'currency' => array('EUR', 'USD', 'GBP', 'JPY')
+        ));
+    }
+
+    /** 
+     * @return string
+     */
+    public function getParent()
+    {
+        return 'choice';
+    }
+
+    /** 
+     * @return string
+     */
+    public function getName()
+    {
+        return 'currency';
+    }
+}

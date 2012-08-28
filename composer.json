@@ -1,0 +1,32 @@
+{
+    "name": "pink-tie/money-bundle",
+    "description": "Symfony bundle integrating Money",
+    "keywords": [ "Money", "Value Object", "Generic Sub-domain", "Symfony" ],
+    "homepage": "http://blog.verraes.net/2011/04/fowler-money-pattern-in-php/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathias Verraes",
+            "email": "mathias@verraes.net",
+            "role": "Developer of wrapped Money library"
+        },
+        {
+            "name": "Marijn Huizendveld",
+            "email": "marijn@pink-tie.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Money\\MoneyBundle": ""
+        }
+    },
+    "require": {
+        "mathiasverraes/money": "dev-master",
+        "symfony/dependency-injection": ">=2.1",
+        "symfony/http-kernel": ">=2.1",
+        "symfony/form": ">=2.1"
+    },
+    "target-dir": "Money/MoneyBundle",
+    "minimum-stability": "dev"
+}
