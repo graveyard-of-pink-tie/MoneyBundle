@@ -23,6 +23,7 @@
     },
     "require": {
         "mathiasverraes/money": "dev-master",
+        "symfony/form": ">=2.1",
         "symfony/framework-bundle": ">=2.1"
     },
     "target-dir": "Money/MoneyBundle",
