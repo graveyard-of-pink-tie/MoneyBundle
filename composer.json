@@ -1,6 +1,6 @@
 {
     "name": "pink-tie/money-bundle",
-    "description": "Symfony bundle integrating Money",
+    "description": "Bundle that integrates the PHP implementation of Fowler's Money pattern with Symfony.",
     "keywords": [ "Money", "Value Object", "Generic Sub-domain", "Symfony" ],
     "homepage": "http://blog.verraes.net/2011/04/fowler-money-pattern-in-php/",
     "license": "MIT",
