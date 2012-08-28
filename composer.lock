@@ -1,11 +1,23 @@
 {
-    "hash": "a68e7ef33e0ea87e65ed4333a393f37b",
+    "hash": "99bfa1227129f8d030ed04978aaf3ef0",
     "packages": [
+        {
+            "package": "doctrine/common",
+            "version": "2.3.x-dev",
+            "source-reference": "2ec4bc6db13db6a0976a16b71058083c55cbcdbd",
+            "commit-date": "1343847076"
+        },
         {
             "package": "mathiasverraes/money",
             "version": "dev-master",
-            "source-reference": "de55e39bf0c7feacd8e177a5dfdd0f0d8ef5f63c",
-            "commit-date": "1343820501"
+            "source-reference": "1.1.0",
+            "commit-date": "1343979593"
+        },
+        {
+            "package": "symfony/config",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
         },
         {
             "package": "symfony/dependency-injection",
@@ -26,10 +38,16 @@
             "commit-date": "1345643321"
         },
         {
-            "package": "symfony/form",
+            "package": "symfony/filesystem",
             "version": "dev-master",
             "source-reference": "v2.1.0-RC2",
-            "commit-date": "1346132306"
+            "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/framework-bundle",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1346140482"
         },
         {
             "package": "symfony/http-foundation",
@@ -50,28 +68,22 @@
             "commit-date": "1346143430"
         },
         {
-            "package": "symfony/locale",
+            "package": "symfony/routing",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
+            "source-reference": "9c313030077b4c509507f6a5da617a71cf1de41e",
+            "commit-date": "1346151969"
         },
         {
-            "package": "symfony/locale",
+            "package": "symfony/templating",
             "version": "dev-master",
             "source-reference": "v2.1.0-RC2",
             "commit-date": "1345643321"
         },
         {
-            "package": "symfony/options-resolver",
+            "package": "symfony/translation",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/options-resolver",
-            "version": "dev-master",
-            "source-reference": "123587aab29d4113aad125fdfca739104f2c7558",
-            "commit-date": "1345643321"
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1346140482"
         }
     ],
     "packages-dev": [

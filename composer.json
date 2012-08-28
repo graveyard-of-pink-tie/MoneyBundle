@@ -23,9 +23,7 @@
     },
     "require": {
         "mathiasverraes/money": "dev-master",
-        "symfony/dependency-injection": ">=2.1",
-        "symfony/http-kernel": ">=2.1",
-        "symfony/form": ">=2.1"
+        "symfony/framework-bundle": ">=2.1"
     },
     "target-dir": "Money/MoneyBundle",
     "minimum-stability": "dev"
