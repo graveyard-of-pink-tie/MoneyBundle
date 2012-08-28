@@ -12,7 +12,7 @@ use Symfony\Component\Form\Tests\FormIntegrationTestCase;
  * with the Symfony form component.
  *
  * @author Marijn Huizendveld <marijn@pink-tie.com>
- * @copyright Mathias Verraes (2011)
+ * @copyright Pink Tie (2012)
  */
 final class CurrencyTypeTest extends FormIntegrationTestCase
 {

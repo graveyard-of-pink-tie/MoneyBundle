@@ -12,7 +12,7 @@ use Money\MoneyBundle\Form\DataTransformer\MoneyToArrayTransformer;
  * arrays.
  *
  * @author Marijn Huizendveld <marijn@pink-tie.com>
- * @copyright Mathias Verraes (2011)
+ * @copyright Pink Tie (2012)
  */
 final class MoneyToArrayTransformerTest extends PHPUnit_Framework_TestCase
 {

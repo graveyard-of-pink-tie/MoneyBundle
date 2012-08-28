@@ -12,7 +12,7 @@ use Symfony\Component\OptionsResolver\OptionsResolverInterface;
  * Custom form type for the Money object.
  *
  * @author Marijn Huizendveld <marijn@pink-tie.com>
- * @copyright Mathias Verraes (2011)
+ * @copyright Pink Tie (2012)
  */
 final class MoneyType extends AbstractType
 {

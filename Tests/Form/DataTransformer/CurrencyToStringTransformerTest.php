@@ -11,7 +11,7 @@ use Money\MoneyBundle\Form\DataTransformer\CurrencyToStringTransformer;
  * strings.
  *
  * @author Marijn Huizendveld <marijn@pink-tie.com>
- * @copyright Mathias Verraes (2011)
+ * @copyright Pink Tie (2012)
  */
 final class CurrencyToStringTransformerTest extends PHPUnit_Framework_TestCase
 {

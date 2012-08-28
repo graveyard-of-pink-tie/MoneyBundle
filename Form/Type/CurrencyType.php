@@ -11,7 +11,7 @@ use Symfony\Component\OptionsResolver\OptionsResolverInterface;
  * Custom form type for the Currency object.
  *
  * @author Marijn Huizendveld <marijn@pink-tie.com>
- * @copyright Mathias Verraes (2011)
+ * @copyright Pink Tie (2012)
  */
 final class CurrencyType extends AbstractType
 {

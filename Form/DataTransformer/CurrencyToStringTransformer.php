@@ -12,7 +12,7 @@ use Symfony\Component\Form\Exception\TransformationFailedException;
  * Transforms between a Currency and a string.
  *
  * @author Marijn Huizendveld <marijn@pink-tie.com>
- * @copyright Mathias Verraes (2011)
+ * @copyright Pink Tie (2012)
  */
 class CurrencyToStringTransformer implements DataTransformerInterface
 {

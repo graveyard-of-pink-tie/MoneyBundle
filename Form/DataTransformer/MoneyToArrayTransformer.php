@@ -10,7 +10,7 @@ use Symfony\Component\Form\Exception\UnexpectedTypeException;
  * Transforms between a Money instance and an array.
  *
  * @author Marijn Huizendveld <marijn@pink-tie.com>
- * @copyright Mathias Verraes (2011)
+ * @copyright Pink Tie (2012)
  */
 class MoneyToArrayTransformer implements DataTransformerInterface
 {
