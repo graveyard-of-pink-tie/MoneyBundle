@@ -2,7 +2,9 @@
 
 namespace Money\MoneyBundle;
 
+use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
@@ -22,6 +24,8 @@ class MoneyBundle extends Bundle
     {
         parent::build($container);
 
-        $container->load(__DIR__."/Resources/config/form_types.xml");
+        $loader = new XmlFileLoader($container, new FileLocator(__DIR__.'/Resources/config'));
+
+        $loader->load("form_types.xml");
     }
 }
