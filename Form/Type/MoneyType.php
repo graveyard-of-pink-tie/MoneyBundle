@@ -55,14 +55,6 @@ final class MoneyType extends AbstractType
     /** 
      * @return string
      */
-    public function getParent()
-    {
-        return 'field';
-    }
-
-    /** 
-     * @return string
-     */
     public function getName()
     {
         return 'money';

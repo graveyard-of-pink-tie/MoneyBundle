@@ -46,14 +46,6 @@ final class CurrencyType extends AbstractType
     /** 
      * @return string
      */
-    public function getParent()
-    {
-        return 'choice';
-    }
-
-    /** 
-     * @return string
-     */
     public function getName()
     {
         return 'currency';
