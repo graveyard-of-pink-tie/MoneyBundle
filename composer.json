@@ -22,10 +22,9 @@
         }
     },
     "require": {
-        "mathiasverraes/money": "dev-master",
+        "mathiasverraes/money": "dev-master@dev",
         "symfony/form": ">=2.1",
         "symfony/framework-bundle": ">=2.1"
     },
-    "target-dir": "Money/MoneyBundle",
-    "minimum-stability": "dev"
+    "target-dir": "Money/MoneyBundle"
 }
